@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "question":"What is cors?",
+        "strong":"Cross-Origin Resource Sharing",
+        "answer": "(CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a preflight request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request."
+    },
+    {
+        "id":2,
+        "question":"Why are you using firebase?",
+        "strong":"Google Firebase",
+        "answer": "Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment... reporting and fixing app crashes, creating marketing and product experiment. reporting and fixing app crashes, creating marketing and product experiment"
+    },
+    {
+        "id":3,
+        "question":"What other options do you have to implement authentication?",
+        "strong":"Authentication",
+        "answer": "is used by a server when the server needs to know exactly who is accessing their information or site. Authentication is used by a client when the client needs to know that the server is system it claims to be. In authentication, the user or computer has to prove its identity to the server or client. Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints."
+    },
+    {
+        "id":4,
+        "question":"How does the private route work?",
+        "strong":"Private route",
+        "answer": " component with React Router 6. The private route component is used to protect selected pages in a React app from unauthenticated users.The below code snippets are from a React + Redux JWT authentication tutorial I posted recently that includes a live demo, so to see the code running check out."
+    },
+    {
+        "id":5,
+        "question":" What is Node?",
+        "strong":"Node.js ",
+        "answer": " is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request. which was designed to build scalable network applications which was designed to build scalable network applications which was designed to build scalable network applications"
+    },
+    {
+        "id":6,
+        "question":"How does Node work?",
+        "strong":"Working of Node.js:",
+        "answer": " Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request."
+    }
+
+]

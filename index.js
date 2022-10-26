@@ -5,40 +5,28 @@ let port = process.env.Port || 5000;
 
 app.use(cors());
 
-let cetagories = require('./data/cetagory.json');
-let news = require('./data/news.json');
+
+let courseList = require('./data/courseList.json');
+let blogList = require('./data/blogs.json');
 
 app.get('/', (req, res) => {
-  res.send('News API Running');
+  res.send('Dream Learning API Running');
 })
 
-app.get('/news-catagories', (req, res) => {
-  res.send(cetagories)
+app.get('/blogsList', (req, res) => {
+  res.send(blogList)
 })
 
-app.get('/category/:id', (req, res) => {
-   let id = req.params.id;
-
-   if(id === '08'){
-      res.send(news);
-   }
-   else{
-    let category_news = news.filter(n => n.category_id === id);
-    res.send(category_news);
-   }
-   
+app.get('/courseList', (req, res) => {
+  res.send(courseList)
 })
 
-app.get('/news', (req, res) => {
-  res.send(news)
+app.get('/courseList/:id', (req, res) =>{
+  let id = req.params.id;
+  res.send(courseList.find(item => item.id == id))
 })
 
-app.get('/news/:id', (req, res) =>{
-   let id = req.params.id;
-   let selectedNews = news.find(n => n._id === id);
-   res.send(selectedNews)
-})
 
 app.listen(port, () => {
-  console.log("Dragon News Server on POrt", port);
+  console.log("Dream Learning Server on POrt", port);
 })
