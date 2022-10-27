@@ -6,7 +6,7 @@ let port = process.env.Port || 5000;
 app.use(cors());
 
 
-let courseList = require('./data/courseList.json');
+// let courseList = require('./data/courseList.json');
 let blogList = require('./data/blogs.json');
 
 app.get('/', (req, res) => {
