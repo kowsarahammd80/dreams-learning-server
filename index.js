@@ -28,5 +28,5 @@ app.get('/courseList/:id', (req, res) =>{
 
 
 app.listen(port, () => {
-  // console.log("Dream Learning Server on POrt", port);
+  console.log("Dream Learning Server on POrt", port);
 })
