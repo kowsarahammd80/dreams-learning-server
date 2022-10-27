@@ -1,7 +1,7 @@
 let express = require('express')
 let app = express();
 let cors = require('cors');
-let port = process.env.Port || 5000;
+// let port = process.env.Port || 5000;
 
 app.use(cors());
 
